@@ -1,3 +1,16 @@
+'use strict'
+const express = require('express')
+const mysql = require('mysql2')
+const app = express()
+const router = express.Router()
+const serverless = require('serverless-http')
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended:true}))
+
+app.use('/',(req,res)=>{
+res.send(`
 <html><head>
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -444,3 +457,9 @@ width.style.width = '0px'}
 
 
 </body></html>
+`)
+	
+})
+
+app.use('/medical-forms',router)
+module.exports.handler = serverless(app)
