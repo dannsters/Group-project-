@@ -26,7 +26,7 @@ var emergency_contact = records.emergency_contact
 var emergency_contact_relationship = records.emergency_contact_relationship
 
 
-var connect = mysql.createConnection()
+var connect = mysql.createConnection(process.env.DATABASE_URL)
 
   connect.query(`INSERT INTO Records() VALUES()`,[],(err)=>{})
 
