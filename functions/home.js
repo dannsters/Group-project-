@@ -1,3 +1,17 @@
+'use strict'
+const mysql = require('mysql2');
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const serverless = require('serverless-http');
+const router = express.Router();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true}));
+
+
+
+app.use('/',(req,res)=>{
+res.send(`
 <html><head>
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -497,4 +511,8 @@ width.style.width = '0px'}
 
 
 
-</body></html>
+</body></html>`)})
+
+app.use('/home',router)
+
+module.exports.handler = serverless(app)
