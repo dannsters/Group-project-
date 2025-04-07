@@ -11,8 +11,19 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 
 app.use('/',(req,res)=>{
+var customer = req.body
+var username = customer.username
+var password = customer.lastname
 
+var connect = mysql.createConnection(process.env.DATABASE_URL)
+
+  connect.query(`SELECT * FROM Customers WHERE username == ? AND password = ?`,[username,password],(err,results)=>{
+if(results.length>0){continue}
+else(throw err; console.log('This account doesnt exist'))
+    
+  })
   
+
 
 
   
