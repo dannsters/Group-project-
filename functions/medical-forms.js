@@ -233,7 +233,8 @@ width.style.width = '0px'}
 <span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-6')" style="background-color:transparent">
 
 <form action="" method="POST" class="main-nav-bar-form" style="background-color:transparent">
-
+<input name="username" value = `+user+` style="display:none">
+<input name="pasword" value = `+password+` style="display:none">
 <button onmouseover="" type="submit" id="home-button" class="main-nav-bar-form-button" style="background-color:transparent;font-family:Helvetica;font-weight:lighter;color:whitesmoke">Medical Forms</button>
 
 </form>
@@ -255,7 +256,8 @@ width.style.width = '0px'}
 <span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-7')" style="background-color:transparent">
 
 <form action="" method="POST" class="main-nav-bar-form" style="background-color:transparent">
-
+<input name="username" value = `+user+` style="display:none">
+<input name="pasword" value = `+password+` style="display:none">
 <button onmouseover="" type="submit" id="home-button" class="main-nav-bar-form-button" style="background-color:transparent;font-family:Helvetica;font-weight:lighter;color:whitesmoke">Accounts</button>
 
 </form>
@@ -272,7 +274,8 @@ width.style.width = '0px'}
 </span><span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-8')" style="background-color:transparent">
 
 <form action="" method="POST" class="main-nav-bar-form" style="background-color:transparent">
-
+<input name="username" value = `+user+` style="display:none">
+<input name="pasword" value = `+password+` style="display:none">
 <button onmouseover="" type="submit" id="home-button" class="main-nav-bar-form-button" style="background-color:transparent;font-family:Helvetica;font-weight:lighter;color:whitesmoke">APIs</button>
 
 </form>
@@ -289,7 +292,8 @@ width.style.width = '0px'}
 </span><span class="main-nav-bar-items-container" onmouseleave="revDropDown('dropdown-button-9')" style="background-color:transparent">
 
 <form action="" method="POST" class="main-nav-bar-form" style="background-color:transparent">
-
+<input name="username" value = `+user+` style="display:none">
+<input name="pasword" value = `+password+` style="display:none">
 <button onmouseover="" type="submit" id="home-button" class="main-nav-bar-form-button" style="background-color:transparent;font-family:Helvetica;font-weight:lighter;color:whitesmoke">About</button>
 
 </form>
@@ -339,52 +343,156 @@ width.style.width = '0px'}
 
 <div><h1 style="text-align:center;font-family:Varela Round;color:rgb(159, 0, 255)">Medical Patient Information Form</h1></div><div id="post-header-body-div-3" class="body-div">
 
-<form style="font-family:Varela Round"><div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Please type your name(First,Last, and Middle)</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
+<form style="font-family:Varela Round">
+    
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Please type your address:</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
+<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">First Name</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Enter your DOB</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Enter your email address:</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What is your marital status?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What city do you live in?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Ask a question</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What state do you live in?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What is your zip code?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What is your phone number?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Type your emergency contact.</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
+
+
+
+
+
+
+
+
  
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Emergency Contact Relationship</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Emergency Contact Phone Number</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What is the name of your insurance company?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">What Insurance Plan do you have?</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Policy Holder's Name</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Policy Holder's Employer</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Primary Care Physician</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Preferred Pharmacy</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Policy Holder's DOB</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Policy Holder's Employer's Relationship to Patient</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">PCP Phone Number</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
 
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">ID#</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div>
-<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Group</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div></form>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Last Name</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div><div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Middle Initial</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div><div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Email Address</label><input class="sub-parent-form-inputs" placeholder="Type an answer"></div><div class="parent-form"><h2 class="sub-parent-form">Medical History</h2><label class="sub-parent-form-label"></label></div><table>
+<tbody><tr>
+    <td>Illness</td>
+    <td>Date of Diagnosis</td>
+    <td>Date of Recovery(if no, type N/A)</td>
+    <td>Comments</td>
+
+</tr>
+    <tr>
+    <td>Alcoholism/Drug Abuse</td>
+    <td><input name="alc_drug_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="alc_drug_end" class="" placeholder="Type in date of recovery"></td>
+	<td><input name = "alc_drug_comments" class = ""></td>
+</tr>
+<tr>
+    <td>Asthma</td>
+    <td><input name="asthma_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="asthma_end" class="" placeholder="Type in date of recovery"></td>
+<td><input name = "asthma_comments" class = ""></td>
+
+</tr>
+<tr>
+    <td>Cancer(type:)</td>
+    <td><input name="cancer_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="cancer_end" class="" placeholder="Type in date of recovery"></td>
+<td><input name = "cancer_comments" class = ""></td>
+
+</tr>
+<tr>
+    <td>Depression/Anxiety/Bipolar/Suicidal</td>
+    <td><input name="dep_anx_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="dep_anx_end" class="" placeholder="Type in date of recovery"></td>
+	<td><input name = "dep_anx_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Diabetes</td>
+    <td><input name="diab_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="diab_end" class="" placeholder="Type in date of recovery"></td>
+    <td><input name = "diab_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Emphysema(COPD)</td>
+    <td><input name="copd_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="copd_end" class="" placeholder="Type in date of recovery"></td>
+    <td><input name = "copd_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Heart Disease</td>
+    <td><input name="heart_d_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="heart_d_end" class="" placeholder="Type in date of recovery"></td>
+    <td><input name = "heart_d_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Hypertension(High Blood Pressure)</td>
+    <td><input name="HBP_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="HBP_end" class="" placeholder="Type in date of recovery"></td>
+	<td><input name = "HBP_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>High Cholesterol</td>
+    <td><input name="hcholesterol_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="hcholesterol_end" class="" placeholder="Type in date of recovery"></td>
+    <td><input name = "hcholesterol_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Hypothyroidism/Thyroid Disease</td>
+    <td><input name="thy_d_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="thy_d_end" class="" placeholder="Type in date of recovery"></td>
+<td><input name = "thy_d_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Renal(kidney) Disease</td>
+    <td><input name="ren_d_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="ren_d_end" class="" placeholder="Type in date of recovery"></td>
+     <td><input name = "ren_d_comments" class = ""></td>
+
+</tr>
+    <tr>
+    <td>Migraine Headaches</td>
+    <td><input name="migraine_start" class="" placeholder="Type date of diagnosis"></td>
+    <td><input name="migraine_end" class="" placeholder="Type in date of recovery"></td>
+    <td><input name = "migraine_comments" class = ""></td>
+
+</tr>
+   
+</tbody></table><button onclick="function addField(form_id,input_clas,name_of_field){
+    var elem = document.getElementById(form_id)
+    var inp = document.createElement('input');console.log(inp.class);inp.class = input_clas;
+  	var total_inp = document.getElementsByClassName(input_clas);
+    ;inp.name = name_of_field +(total_inp.length+1);
+    elem.appendChild(inp)
+    };addField('form','form_inputs','pasword')">Add another illness</button><div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Symptoms</label><input class="sub-parent-form-inputs" placeholder="enter symptoms" name="symptoms"></div><div class="parent-form"><h2 class="sub-parent-form"></h2><label class="sub-parent-form-label">Current Medication:</label><input class="sub-parent-form-inputs" placeholder="Type an answer" style="display:block" name="drug_1"><input class="sub-parent-form-inputs" placeholder="Type an answer" style="display:block" name="drug_2"><input class="sub-parent-form-inputs" placeholder="Type an answer" style="display:block" name="drug_3"><input class="sub-parent-form-inputs" placeholder="Type an answer" style="display:block" name="drug_4"></div><button onclick="function addField(form_id,input_clas,name_of_field){
+    var elem = document.getElementById(form_id)
+    var inp = document.createElement('input');console.log(inp.class);inp.class = input_clas;
+  	var total_inp = document.getElementsByClassName(input_clas);
+    ;inp.name = name_of_field +(total_inp.length+1);
+    elem.appendChild(inp)
+    };addField('form','form_inputs','pasword')">Add another drug</button></form>
     
 <div onmouseover="this.style.backgroundColor = 'white';this.style.color = 'rgb(159, 0, 255)';this.style.borderStyle = 'solid';this.style.borderColor = 'rgb(159, 0, 255)'" onmouseleave="this.style.backgroundColor = 'rgb(159, 0, 255)'; this.style.color = 'white';this.style.borderStyle = 'none';this.style.borderColor = 'white'" id="home-info-1" class="home-info" style="background-color: rgb(159, 0, 255); color: white; border-style: none; border-color: white; font-family: &quot;Varela Round&quot;;">
 <h2 class="secondary-headings" id="home-info-1-secondary-headings">Getting Specifications</h2>
@@ -410,6 +518,10 @@ width.style.width = '0px'}
 <br>
 <br>
 <br>
+
+
+
+
 <br>
 <br>
 <br>
@@ -417,7 +529,9 @@ width.style.width = '0px'}
 <br>
 
 <footer style="height:700px;position:relative;background-color:#9f00ff;">
-<div style="width:49%;color:white;background-color:#e6eab7;display:inline-block">
+
+   
+    <div style="width:49%;color:white;background-color:#e6eab7;display:inline-block">
 
 
 
@@ -449,6 +563,7 @@ width.style.width = '0px'}
 
 
 </div>
+
 
 
 
